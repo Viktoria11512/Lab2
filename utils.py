@@ -3,8 +3,6 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
-<<<<<<< Updated upstream
-=======
 
 def is_power_of_5(number):
     if number == 1:
@@ -16,6 +14,6 @@ def is_power_of_5(number):
             number /= 5
         return number == 1
 
+
 def is_power_of_two(num):
     return (num & (num - 1)) == 0 and num != 0
->>>>>>> Stashed changes
